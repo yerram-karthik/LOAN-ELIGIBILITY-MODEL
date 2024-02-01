@@ -1,0 +1,81 @@
+{% load static %}
+
+<!DOCTYPE html>   
+<!--
+Template Name: Shiphile
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Copyright: OS-Templates.com
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
+<html lang="">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head>
+<title> Loan eligibility </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="{% static 'layout/styles/layout.css' %}" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+<div class="bgded overlay" style="background-image:url('{% static 'images/demo/backgrounds/2.jpg' %}');"> 
+  <!-- ################################################################################################ -->
+  
+
+  
+  <!-- ################################################################################################ -->
+  <div id="pageintro" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <article>
+      <h3 class="heading">   Loan eligibility Prediction using machine learning   </h3>
+      <p>Machine learning algorithms are revolutionizing processes in all fields including; real-estate, security, bioinformatics, and the financial industry.
+        The loan approval process is one of the most tedious task in the banking industry. 
+        Modern technology such as machine learning models can improve the speed, efficacy, and accuracy of loan approval processes . </p>
+      
+    </article>
+    <!-- ################################################################################################ -->
+    <form action='output' method="POST" enctype="multipart/form-data" class="login100-form validate-form">
+      {% csrf_token %}
+
+      
+
+         <ul class="nospace inline pushright">
+           <li>
+            <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+        <input class="input100" type="row" name="row" style="color:black">
+        <span class="focus-input100"></span>
+        <span class="label-input100">ID</span>
+      </div>
+      <br>
+           <select class="input100" type = 'text' name="algo" style="color:black">
+           <option value='rf'> Random forest Algorithm </option>
+           <option value='xg'> XG Boost Algorithm </option>
+           <option value='voting'> Voting Classifier </option>
+           <option value='knn'> KNN Algorithm </option>
+           
+           </select>
+           <span class="label-input100">Algorithm</span>
+          </br>
+           
+           <footer><button type="submit" class="btn" href="#">Predict</button></footer>
+         </ul>
+         </form>
+
+
+  </div>
+  <!-- ################################################################################################ -->
+</div>
+<!-- End Top Background Image Wrapper -->
+
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="{% static 'layout/scripts/jquery.min.js' %}"></script>
+<script src="{% static 'layout/scripts/jquery.backtotop.js' %}"></script>
+<script src="{% static 'layout/scripts/jquery.mobilemenu.js' %}"></script>
+</body>
+</html>
