@@ -15,3 +15,13 @@ This project aims to predict loan eligibility for applicants using machine learn
 - Python
 - Libraries: NumPy, Pandas, Scikit-learn,Matplotlib, Django (for deployment).
 
+## Login Page
+![image](https://github.com/yerram-karthik/LOAN-ELIGIBILITY-MODEL/assets/136573431/7999ae9f-11b5-4946-9c8f-debbac94772e)
+
+## Entering the ID and Selecting the Algorithm
+![image](https://github.com/yerram-karthik/LOAN-ELIGIBILITY-MODEL/assets/136573431/7a0f2d3d-4b84-4226-9c83-8543b40d58c5)
+
+## Output Page (Eligible or Not Eligible)
+![image](https://github.com/yerram-karthik/LOAN-ELIGIBILITY-MODEL/assets/136573431/74c54d95-1329-4c2b-8962-1a0f0a48704e)
+
+
